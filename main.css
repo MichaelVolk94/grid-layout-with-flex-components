@@ -35,3 +35,19 @@
     "emoji emoji";
     gap: 20px;
   }
+
+  .emojis:nth-child(1){
+    grid-area: emoji;
+  }
+
+  .emojis:nth-child(2){
+    grid-area: emoji;
+  }
+
+  .emojis:nth-child(3){
+    grid-area: emoji;
+  }
+
+  .emojis:nth-child(4){
+    grid-area: emoji;
+  }
