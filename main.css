@@ -14,7 +14,6 @@
   .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
-    flex-wrap: wrap;
   }
   
   .emoji a {
@@ -24,12 +23,15 @@
     padding: 1rem;
     border-radius: 8px;
     width: 100%;
+    order: 3;
   }
   
   .icon {
     font-size: 4rem;
     order: -1;
   }
+
+
 
   .emojis {
     display: grid;
