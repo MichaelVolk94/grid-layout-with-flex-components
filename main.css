@@ -15,6 +15,7 @@
     margin: 0;
     border-bottom: 2px solid #ccc;
     justify-content: center;
+    width: 100%;
   }
   
   .emoji a {
