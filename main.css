@@ -14,6 +14,7 @@
   .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
+    flex-wrap: wrap;
   }
   
   .emoji a {
@@ -22,6 +23,7 @@
     color: white;
     padding: 1rem;
     border-radius: 8px;
+    width: 450px;
   }
   
   .icon {
