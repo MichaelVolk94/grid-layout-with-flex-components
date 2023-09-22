@@ -14,6 +14,7 @@
   .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
+    justify-content: center;
   }
   
   .emoji a {
@@ -29,6 +30,9 @@
   .icon {
     font-size: 4rem;
     order: -1;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
   }
 
 
@@ -45,6 +49,7 @@
 
   .emojis:nth-child(1){
     grid-area: emoji;
+    grid-column: 1 / 4;
   }
 
   .emojis:nth-child(2){
