@@ -9,13 +9,13 @@
     padding: 1rem;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
   }
   
   .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
     justify-content: center;
-    width: 100%;
   }
   
   .emoji a {
@@ -24,7 +24,6 @@
     color: white;
     padding: 1rem;
     border-radius: 8px;
-    width: 100%;
     order: 3;
   }
   
@@ -33,7 +32,7 @@
     order: -1;
     justify-content: center;
     flex-grow: 1;
-    width: 100%;
+    flex-direction: column;
   }
 
 
