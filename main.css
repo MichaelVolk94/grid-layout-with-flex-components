@@ -16,6 +16,7 @@
     margin: 0;
     border-bottom: 2px solid #ccc;
     justify-content: center;
+    flex-direction: column;
   }
   
   .emoji a {
@@ -25,6 +26,7 @@
     padding: 1rem;
     border-radius: 8px;
     order: 3;
+    flex-direction: column;
   }
   
   .icon {
