@@ -7,9 +7,10 @@
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
-    display: grid;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    display: grid;
   }
   
   .emoji h2 {
@@ -27,6 +28,7 @@
     order: 3;
     flex-direction: column;
     flex-wrap: wrap;
+    display: grid;
   }
 
   
