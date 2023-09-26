@@ -36,7 +36,6 @@
 
   .emojis {
     display: grid;
-    grid-template-columns: 2, 1fr;
     grid-template-areas: "emoji emoji"
     "emoji emoji";
     gap: 1rem;
